@@ -2,6 +2,7 @@
 @font-face {
   font-family: 'annabelle';
   src: url('AnnabelleJF.ttf');
+  background-size: cover;
 }
 
 h2,
