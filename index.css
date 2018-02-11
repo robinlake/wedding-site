@@ -1,10 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@font-face {
+  font-family: 'annabelle';
+  src: url('AnnabelleJF.ttf');
+}
+
+h2,
+h1,
+strong,
+p {
+  font-family: 'PT Sans', sans-serif;
+  color: white;
+}
+
 #map {
   width: 100%;
   height: 500px;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .text {
-  padding: 40px;
+  padding: 60px 20px 200px 20px;
+  background-image: url("stars1.jpg");
 }
 
 h1 {
@@ -14,10 +34,33 @@ h1 {
 .names {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .name h2 {
   text-align: center;
+}
+
+.name h1 {
+  font-family: 'annabelle';
+}
+
+@media only screen and (max-width: 500px) {
+  .name {
+    width: 100%;
+  }
+  .person {
+    width: 100% !important;
+  }
+  .contact {
+    padding: 0 !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .contact {
+    padding: 0 200px;
+  }
 }
 
 .details {
