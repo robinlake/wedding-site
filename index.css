@@ -2,7 +2,6 @@
 @font-face {
   font-family: 'annabelle';
   src: url('AnnabelleJF.ttf');
-  background-size: cover;
 }
 
 h2,
@@ -26,6 +25,7 @@ body {
 .text {
   padding: 60px 20px 200px 20px;
   background-image: url("stars.jpg");
+  background-size: cover;
 }
 
 h1 {
