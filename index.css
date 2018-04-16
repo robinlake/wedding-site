@@ -59,7 +59,12 @@ h1 {
   background: rgb(35, 178, 245);
   box-shadow: 3px 4px 5px #aaa;
   border-radius: 10px;
+  transition: all 0.3s ease;
   /* height: 80px; */
+}
+
+.time a:hover {
+  background: rgb(70, 151, 189);
 }
 
 @media only screen and (max-width: 500px) {
