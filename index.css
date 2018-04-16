@@ -64,8 +64,8 @@ h1 {
 }
 
 .time a:hover {
-  /* background: rgb(70, 151, 189); */
-  background: rgb(0, 0, 0);
+  background: rgb(31, 83, 107);
+  /* background: rgb(0, 0, 0); */
 }
 
 @media only screen and (max-width: 500px) {
