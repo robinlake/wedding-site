@@ -46,6 +46,11 @@ h1 {
   font-family: 'annabelle';
 }
 
+.time a {
+  font-size: 2em;
+  color: white;
+}
+
 @media only screen and (max-width: 500px) {
   .name {
     width: 100%;
@@ -77,10 +82,6 @@ h1 {
 .time {
   width: 100%;
   text-align: center;
-}
-
-.time a {
-  font-size: 2em;
 }
 
 .place {
